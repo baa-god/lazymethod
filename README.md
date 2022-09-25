@@ -1,4 +1,4 @@
-lazymethod 是一个 python 对象的懒加载装饰器，类似于 `@property` 但只会调用一次。
+pylazy 是一个 python 对象的懒加载装饰器，类似于 `@property` 但只会调用一次。
 
 不仅如此，`lazy` 还实现了返回值的静态类型识别。
 
@@ -9,7 +9,7 @@ lazymethod 是一个 python 对象的懒加载装饰器，类似于 `@property` 
 或使用 `var: [return type] = lazy(lambda: ...)` 。
 
 ```python
-from lazy import lazymethod
+from pylazy import lazymethod
 
 class Model:
     @lazymethod(list)
@@ -65,7 +65,7 @@ get numbers
 
 ### 使用 lambda
 
-lazymethod 支持使用 `lambda` 表达式创建懒加载属性：
+pylazy 支持使用 `lambda` 表达式创建懒加载属性：
 
 
 ```python
