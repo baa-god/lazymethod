@@ -1,0 +1,8 @@
+/.idea
+/.venv
+/build
+/dist
+/pylazy.egg-info
+
+/.pdm.toml
+/pyproject.toml
