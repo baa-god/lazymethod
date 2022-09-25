@@ -2,13 +2,11 @@ pylazy 是一个 python 对象的懒加载装饰器，类似于 `@property` 但�
 
 不仅如此，`lazy` 还实现了返回值的静态类型识别。
 
-## 使用
+## 基本使用
 
 只需要将方法加入到懒加载装饰器：`@lazymethod(<return type>)` 。
 
 或使用 `var: [return type] = lazy(lambda: ...)` 。
-
-### 基本使用
 
 ```python
 from lazy import lazymethod
@@ -67,7 +65,7 @@ get numbers
 
 ### 使用 lambda
 
-支持使用 `lambda` 表达式创建懒加载属性：
+pylazy 支持使用 `lambda` 表达式创建懒加载属性：
 
 
 ```python
@@ -93,7 +91,7 @@ print(m2.ages)
 [10, 20, 30]
 ```
 
-### 静态识别返回值类型
+## 静态识别返回值类型
 
 不论你是使用 `@lazymethod` 还是 `lazy` 来创建懒加载属性，它们都会静态识别方法返回值类型：
 
