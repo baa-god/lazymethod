@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name="pylazy",
+    name="lazymethod",
     version="0.0.1",
     author="baa-god",
     author_email="780810441@qq.com",
