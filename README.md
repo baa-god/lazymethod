@@ -2,6 +2,12 @@ lazymethod 是一个 python 对象的懒加载装饰器，类似于 `@property` 
 
 lazymethod 还能静态识别方法返回值类型 ( 类似 `typing` ) 。
 
+## 安装
+
+```python
+pip install lazymethod
+```
+
 ## 基本使用
 
 只需要将方法加入到懒加载装饰器：`@lazymethod(<return type>)` 。
