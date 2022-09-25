@@ -97,8 +97,8 @@ print(m2.ages)
 
 不论你是使用 `@lazymethod` 还是 `lazy` 来创建懒加载属性，它们都会静态识别方法返回值类型：
 
-![](C:/Users/78081/Desktop/616231924eacc63671f005621277744.jpg)
+![](616231924eacc63671f005621277744.jpg)
 
 ----
 
-![](C:/Users/78081/Desktop/788d0f64c12d1208d79a977624ae0f8.jpg)
+![](788d0f64c12d1208d79a977624ae0f8.jpg)
