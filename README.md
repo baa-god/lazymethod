@@ -4,7 +4,7 @@ lazymethod 还能静态识别方法返回值类型 ( 类似 `typing` ) 。
 
 ## 安装
 
-```python
+```shell
 pip install lazymethod
 ```
 
