@@ -1,6 +1,6 @@
 lazymethod 是一个 python 对象的懒加载装饰器，类似于 `@property` 但只会调用一次。
 
-不仅如此，`lazy` 还实现了返回值的静态类型识别。
+lazymethod 还能静态识别方法返回值类型 ( 类似 `typing` ) 。
 
 ## 基本使用
 
