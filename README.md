@@ -1,6 +1,6 @@
-lazymethod 是一个 python 对象的懒加载装饰器，类似于 `@property` 但只会调用一次。
+**lazymethod** 是一个 python 对象的懒加载装饰器，类似于 `@property` 但只会调用一次。
 
-lazymethod 还能静态识别方法返回值类型 ( 类似 `typing` ) 。
+**lazymethod** 还能静态识别方法返回值类型 ( 类似 `typing` ) 。
 
 ## 安装
 
@@ -71,7 +71,7 @@ get numbers
 
 ### 使用 lambda
 
-lazymethod 支持使用 `lambda` 表达式创建懒加载属性：
+**lazymethod** 支持使用 `lambda` 表达式创建懒加载属性：
 
 
 ```python
