@@ -1,2 +1,6 @@
 /.idea
+/.venv
+/dist
+
 /.pdm.toml
+/pdm.lock
