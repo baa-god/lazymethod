@@ -9,7 +9,7 @@ lazymethod 是一个 python 对象的懒加载装饰器，类似于 `@property` 
 或使用 `var: [return type] = lazy(lambda: ...)` 。
 
 ```python
-from lazymethod import lazymethod
+from pylazy import lazymethod
 
 class Model:
     @lazymethod(list)
@@ -70,7 +70,7 @@ lazymethod 支持使用 `lambda` 表达式创建懒加载属性：
 
 ```python
 from typing import ClassVar
-from lazymethod import lazy
+from pylazy import lazy
 
 class Model:
     numbers: list = lazy(lambda: [1, 2, 3])

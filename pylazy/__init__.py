@@ -1,1 +1,1 @@
-from lazy import lazy, lazymethod
+from pylazy.lazy import lazy, lazymethod
