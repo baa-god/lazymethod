@@ -1,6 +1,7 @@
 /.idea
 /.venv
 /dist
+pylazy/__pycache__
 
 /.pdm.toml
 /pdm.lock
